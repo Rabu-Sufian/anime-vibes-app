@@ -1,0 +1,40 @@
+/* assets/styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+div.block-container {
+    background-color: #fff9f9 !important;
+    font-family: 'Comic Neue', cursive !important;
+    color: #333;
+}
+/* Remove top padding/margin above banner */
+header[data-testid="stHeader"] {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent;
+}
+
+/* Optional: remove white space between sidebar and content  */
+section.main > div.block-container {
+    padding-top: 0rem !important;
+}
+
+
+h1, h2, h3 {
+    color: #6c4b5e !important;
+}
+
+div[data-testid="stSidebar"] {
+    background-color: #f6f0fa !important;
+}
+
+div.block-container {
+    padding: 2rem 2rem !important;
+}
+
+button {
+    border-radius: 10px !important;
+}
+
+span {
+    font-size: 16px !important;
+}

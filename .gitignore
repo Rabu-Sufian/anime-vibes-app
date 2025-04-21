@@ -1,0 +1,45 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+data/*.parquet
+data/*.pkl
+data/*.ass
+data/*.srt
+data/Preprocessed/
+data/SCY*
+
+# Ignore environment
+anime/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Others
+.DS_Store
+*.ipynb_checkpoints
+
+
+# Streamlit Cache
+**/.streamlit/
+**/.pytest_cache/
+**/.mypy_cache/
+
+# VSCode
+.vscode/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Optional extras
+*.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
